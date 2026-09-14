@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>French Poem</title>
+    <title>AI FRENCH POEM</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav">
-        <div class="brand">French Poem</div>
+        <div class="brand">AI FRENCH POEM</div>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#poem">Poem</a></li>
@@ -21,10 +21,27 @@
     <main id="home">
       <section class="hero">
         <p class="tagline">A quiet moment in French verse</p>
-        <h1>French Poem</h1>
+        <h1>AI FRENCH POEM</h1>
         <p class="intro">
-          A simple page designed to celebrate language, rhythm, and emotion.
+          Create a French poem inspired by any topic you choose.
         </p>
+      </section>
+
+      <section class="prompt-section" aria-labelledby="prompt-title">
+        <h2 id="prompt-title">Choose your topic</h2>
+        <form class="poem-form" action="#poem" method="get">
+          <label for="poem-topic">Topic of the French poem</label>
+          <div class="form-row">
+            <input
+              id="poem-topic"
+              name="topic"
+              type="text"
+              placeholder="e.g. Paris at sunrise"
+              required
+            />
+            <button type="submit">Generate poem</button>
+          </div>
+        </form>
       </section>
 
       <section id="poem" class="poem-section">
@@ -47,7 +64,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 French Poem</p>
+      <p>AI was coded by THOBEKA MTHEMBU</p>
     </footer>
   </body>
 </html>
